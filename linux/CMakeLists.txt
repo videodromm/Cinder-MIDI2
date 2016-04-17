@@ -21,6 +21,10 @@ endif()
 set( EXE_NAME ${PROJECT_NAME} )
 
 set( SRC_FILES
+	${SRC_DIR}/MidiHub.cpp
+	${SRC_DIR}/MidiIn.cpp
+	${SRC_DIR}/MidiMessage.cpp
+	${SRC_DIR}/MidiOut.cpp
 	${SRC_DIR}/RtMidi.cpp
 	${SRC_DIR}/VDApp.cpp
 )
